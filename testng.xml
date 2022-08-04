@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing UI" thread-count="6" parallel="methods">
+    <test name="Challenge">
+        <classes>
+            <class name="LogInTest"/>
+            <class name="MathOperationTest"/>
+            <class name="SumOperationTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
